@@ -1,0 +1,223 @@
+[
+  {
+    "product_id": "001",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/9345/media-gallery/touch/gray/notebook-xps-13-9345-t-gray-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=679&qlt=100,1&resMode=sharp2&size=679,402&chrss=full",
+    "category": "laptop",
+    "price": 599.99,
+    "description": "A high-performance laptop with a stunning 13-inch display.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "13.3-inch FHD Display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "002",
+    "product_title": "Apple iPhone 14",
+    "product_image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-14-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=webp&qlt=70&.v=NjB6M3BqTGRudDZtakJrUG5tT2pHTGdzSmpObkZCM3MrNmJ5SkhESlNDaEtZdVY3TDNHWkJvd3VlMlcxbzlseEpFd0xhWDVibStLdGRYRmxkNGI4VTdpMGJRT0ppMjh4RlRZQkc0Q3FZZEJNK3Z0Qk9IeXBSZkJWWnlDNFRRcHE&traceId=1",
+    "category": "mobile",
+    "price": 799.99,
+    "description": "The latest iPhone with cutting-edge technology.",
+    "Specification": [
+      "A16 Bionic Chip",
+      "128GB Storage",
+      "6.1-inch Super Retina XDR display",
+      "Dual 12MP Cameras"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "003",
+    "product_title": "Logitech Wireless Mouse",
+    "product_image": "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-black.png?v=1",
+    "category": "accessories",
+    "price": 59.99,
+    "description": "Ergonomic wireless mouse for comfortable use.",
+    "Specification": [
+      "Wireless Connectivity",
+      "Up to 1000 DPI",
+      "Long Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "004",
+    "product_title": "Apple MacBook Air",
+    "product_image": "https://images.idgesg.net/images/article/2018/11/macbook-air-2108-hero2-100779122-orig.jpeg",
+    "category": "laptop",
+    "price": 999.99,
+    "description": "Ultra-thin and lightweight MacBook with incredible performance.",
+    "Specification": [
+      "M1 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "13.3-inch Retina Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "005",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.134VJ44OStJo8DrF8-JnyAHaHa%26pid%3DApi&f=1&ipt=69422ed8e8df9d2057aa1065a8b952aab31bdc1218ccb0d8392ae9f7adccf612&ipo=images",
+    "category": "accessories",
+    "price": 249.99,
+    "description": "Active Noise Cancellation for immersive sound.",
+    "Specification": [
+      "H1 Chip",
+      "Customizable Fit",
+      "Transparency Mode",
+      "Wireless Charging Case"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "006",
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://image-stgus.samsung.com/SamsungUS/home/smartphones/galaxy-s22-ultra/pzn/04122022/s21Plus-kv-d.jpg?$cm-g-fb-full-bleed-img-jpg$",
+    "category": "mobile",
+    "price": 650.99,
+    "description": "Powerful smartphone with stunning display and camera.",
+    "Specification": [
+      "Exynos 2100",
+      "8GB RAM",
+      "128GB Storage",
+      "6.2-inch Dynamic AMOLED Display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "007",
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://img.evetech.co.za/repository/mobile/Laptop/ProImages/asus-rog-zephyrus-g14-ryzen-9-rx-6700s-gaming-laptop-1500px-v1-0003.jpg",
+    "category": "laptop",
+    "price": 1499.99,
+    "description": "Gaming laptop with high performance and portability.",
+    "Specification": [
+      "AMD Ryzen 9",
+      "32GB RAM",
+      "1TB SSD",
+      "14-inch QHD Display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "008",
+    "product_title": "OnePlus 9",
+    "product_image": "https://techengage.com/wp-content/uploads/2021/03/oneplus-9-pro-pine-green.jpg",
+    "category": "mobile",
+    "price": 729.99,
+    "description": "Flagship smartphone with impressive camera capabilities.",
+    "Specification": [
+      "Snapdragon 888",
+      "8GB RAM",
+      "128GB Storage",
+      "6.55-inch Fluid AMOLED Display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "009",
+    "product_title": "Bose QuietComfort 35 II",
+    "product_image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/images/qc35_ii_product_page_blk_and_silver_silo_3x2.psd/jcr:content/renditions/cq5dam.web.1920.1920.png",
+    "category": "accessories",
+    "price": 299.99,
+    "description": "Noise-canceling headphones with superior sound quality.",
+    "Specification": [
+      "Alexa Voice Control",
+      "20 Hours of Battery Life",
+      "Comfortable Fit"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "010",
+    "product_title": "Google Pixel Buds A-Series",
+    "product_image": "https://images.fonearena.com/blog/wp-content/uploads/2021/06/Google-Pixel-Buds-A-Series-1024x581.jpg",
+    "category": "accessories",
+    "price": 99.99,
+    "description": "Wireless earbuds with great sound and smart features.",
+    "Specification": [
+      "Google Assistant Built-in",
+      "24 Hours of Battery Life",
+      "Sweat and Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "011",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://www.hp.com/wcsstore/hpusstore/Treatment/mdps/spectre_x360_q4fy19/spectre_x360_q4fy19_ksp7_pdt1.png",
+    "category": "laptop",
+    "price": 1299.99,
+    "description": "Premium convertible laptop with stunning design.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "1TB SSD",
+      "13.3-inch 4K OLED Display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "012",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://lenovindo.com/wp-content/uploads/2019/06/Lenovo-Thinkpad-X1-Carbon-Gen-9.jpg",
+    "category": "laptop",
+    "price": 1399.99,
+    "description": "Lightweight and durable laptop with business-class performance.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "14-inch FHD Display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "013",
+    "product_title": "Acer Swift 3",
+    "product_image": "https://www.notebookcheck.net/uploads/tx_nbc2/bf19df59a560cbece95b557512a5f7c7_01.jpeg",
+    "category": "laptop",
+    "price": 1699.99,
+    "description": "Affordable laptop with solid performance and sleek design.",
+    "Specification": [
+      "AMD Ryzen 7",
+      "8GB RAM",
+      "512GB SSD",
+      "14-inch FHD IPS Display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "014",
+    "product_title": "Razer Blade 15",
+    "product_image": "https://i5.walmartimages.com/asr/d9f2e655-5250-4d47-8099-e9a43521a15a.0373e1f8ce2c336384213f3487e5d2c5.jpeg",
+    "category": "laptop",
+    "price": 1999.99,
+    "description": "High-performance gaming laptop with an ultra-slim design.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "1TB SSD",
+      "15.6-inch 4K OLED Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  }
+]
