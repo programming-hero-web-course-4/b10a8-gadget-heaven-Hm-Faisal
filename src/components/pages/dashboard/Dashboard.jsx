@@ -15,10 +15,10 @@ const Dashboard = () => {
   let currPrice = 0;
 
   defaulProduct.map((item) => (currPrice += item.price));
-  let totalPrice = currPrice.toFixed(2);
+  let totalPrice = currPrice;
   const [price, setPrice] = useState(totalPrice);
-  const romoveItemHandler = () => {
-    setPrice(0);
+  const romoveItemHandler = (itemPrice) => {
+    setPrice(price - itemPrice);
   };
 
   const showCartProduct = (stgitem) => {
@@ -48,6 +48,7 @@ const Dashboard = () => {
   const clearItem = (item) => {
     setShowPaymentModal(true);
     localStorage.removeItem(item);
+    setPrice(0);
   };
 
   const title = "Gadget Heaven || Dashboard";
@@ -63,7 +64,7 @@ const Dashboard = () => {
           <div className="paymentModal p-20 bg-white flex justify-center items-center text-black flex-col rounded-lg gap-4 max-w-md text-center h-fit">
             <img src={group} alt="" />
             <h4 className="font-bold text-xl">Payment Successfully</h4>
-            <p>Thanks for purchasing. Total:{totalPrice}</p>
+            <p>Thanks for purchasing. Total:{totalPrice.toFixed(2)}</p>
             <button
               onClick={() => {
                 navigate("/");
@@ -120,7 +121,7 @@ const Dashboard = () => {
               <h3 className="text-2xl font-bold">Cart</h3>
               <p className="flex flex-col lg:flex-row items-center">
                 <span className="mr-4 font-bold text-lg text-black">
-                  Total Price : {price}
+                  Total Price : {price.toFixed(2)}
                 </span>
                 <button
                   onClick={() => sortPrice(defaulProduct)}
@@ -166,7 +167,7 @@ const Dashboard = () => {
               <h3 className="text-2xl font-bold">Cart</h3>
               <p>
                 <span className="mr-4 font-bold text-lg text-black">
-                  Total Price : {price}
+                  Total Price : {price.toFixed(2)}
                 </span>
                 <button
                   onClick={() => sortPrice(items)}

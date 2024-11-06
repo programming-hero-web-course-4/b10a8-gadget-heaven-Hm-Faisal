@@ -1,14 +1,12 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-import { useNavigate } from "react-router-dom";
 
 const DashboardContent = ({ item, localStoragekey, romoveItemHandler }) => {
   const { product_image, product_title, description, price, product_id } = item;
   const localStoragekeys = localStoragekey;
 
   const [remove, setRemvoe] = useState(false);
-  const navigate = useNavigate();
 
   const handleremove = (item) => {
     const localCardItem = localStorage.getItem(item);
@@ -17,8 +15,6 @@ const DashboardContent = ({ item, localStoragekey, romoveItemHandler }) => {
       (item) => item.product_id !== product_id
     );
     localStorage.setItem(item, JSON.stringify(filteredItem));
-
-    navigate("/dashboard");
   };
 
   return (
@@ -42,7 +38,7 @@ const DashboardContent = ({ item, localStoragekey, romoveItemHandler }) => {
             onClick={() => {
               handleremove(localStoragekeys);
               setRemvoe(true);
-              romoveItemHandler()
+              romoveItemHandler(price);
             }}
           >
             <RxCross2 />
